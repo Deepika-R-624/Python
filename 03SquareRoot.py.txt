@@ -1,0 +1,4 @@
+
+NUM=float(input("ENTER THE NUMBER"))
+Sqrt=NUM**0.5
+print(Sqrt)
