@@ -1,0 +1,6 @@
+A=float(input("ENTER NUMBER 1"))
+B=float(input("ENTER NUMBER 2"))
+C=float(input("ENTER NUMBER 3"))
+S=(A+B+C)/2
+area=(S*(S-A)*(S-B)*(S-C))**0.5
+print("THE AREA OF THE TRIANGLE IS %0.2f"%area)
