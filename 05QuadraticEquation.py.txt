@@ -1,0 +1,9 @@
+import cmath
+A=int(input("ENTER NUMBER 1"))
+B=int(input("ENTER NUMBER 2"))
+C=int(input("ENTER NUMBER 3"))
+D=(B**2)-(4*A*C)
+S1=(-B-cmath.sqrt(D))/(2*A)
+S2=(-B+cmath.sqrt(D))/(2*A)
+print(S1)
+print(S2)
